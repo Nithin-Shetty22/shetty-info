@@ -1,0 +1,158 @@
+.main-container {
+    min-height: 100vh;
+    margin: 100px 0 -450px;
+    opacity: 5;
+    transform: translateY(1px);
+}
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 50px;
+}
+.screen-heading {
+    font-size: 32px;
+    color: #1f2235;
+    font-family: "Poppins Bold";
+}
+.screen-sub-heading {
+    letter-spacing: 3px;
+    margin: 8px 0 10px;
+    font-size: 12px;
+    color: var(--black);
+}
+.heading-seperator {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 180px;
+    margin: 10px 0 0;
+}
+.seperator-line {
+    width: 100%;
+    height: 2px;
+    background-color: #1f221f;
+}
+.seperator-blob {
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.col i {
+    padding: 7px;
+    color: #fff;
+}
+.central-form {
+    max-width: 1100px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0 0 20px -2px #1f2235;
+    border-radius: 12px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2235;
+}
+.central-form h2 {
+    color: #fff;
+    font-family: "Poppins Bold";
+    letter-spacing: .2rem;
+    margin-bottom: 20px;
+}
+.back-form {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.back-form .img-back {
+    width: 50%;
+    margin-bottom: 20px;
+    flex: 1 1;
+    align-self: normal;
+    margin-right: 20px;
+}
+.central-form form {
+    width: 50%;
+    box-shadow: 0 0 2px 1px #fff;
+    display: flex;
+    color: #111;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -52px;
+    opacity: .9;
+    background-color: #fff;
+    box-shadow: 0 0 20px -2px #1f2235;
+    border-radius: 12px;
+}
+.img-back h4 {
+    letter-spacing: .3rem;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    opacity: .5;
+}
+.back-form .img-back img {
+    width: 100%;
+    opacity: .5;
+    height: 100%;
+}
+form label {
+    margin-bottom: 5px;
+    color: #111;
+    letter-spacing: .2rem;
+}
+form input, textarea {
+    width: 100%;
+    border: 2px solid transparent;
+    outline: none;
+    background-color: hsla(0,0%,90.2%,.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    border-radius: 10px;
+}
+.scroll-container {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin-right: 9px;
+    overflow: hidden;
+    flex-direction: column;
+    margin-top: -45px;
+    z-index: 100;
+    cursor: pointer;
+}
+.btn-scroll {
+    width: 50px;
+    height: 50px;
+    color: #f0f8ff;
+    font-size: 24px;
+    background-color: tomato;
+    border-radius: 10px;
+    border: none;
+}
+@media screen and (max-width: 810px){
+    .back-form {
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-self: center;
+    }
+    .back-form .img-back {
+        width: 80%;
+        margin-bottom: 0;
+        margin-right: 0;
+        flex: 1 1;
+        align-self: center;
+    }
+    .central-form form {
+        width: 80%;
+        align-self: center;
+        margin-top: 0;
+    }
+}
