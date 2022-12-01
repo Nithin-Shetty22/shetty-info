@@ -24,21 +24,18 @@ function Contactme(props) {
           <h2 className="title">
             <p className="styles_typicalWrapper__1_Uvh">Get In Touch 📧</p>
           </h2>{" "}
-          <a href="https://web.facebook.com/?_rdc=1&amp;_rdr">
-            <i className="fa fa-facebook-square"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-google-plus-square"></i>
-          </a>
-          <a href="https://www.instagram.com/instructor_ehizeex/">
-            <i className="fa fa-instagram"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-            <i className="fa fa-youtube-square"></i>
-          </a>
-          <a href="https://twitter.com/Ehiedu_baba">
-            <i className="fa fa-twitter"></i>
-          </a>
+          <a href="https://www.linkedin.com/in/nithin-kumar-854338194">
+              <i className="fa fa-linkedin-square"></i>
+            </a>
+            <a href="mailto:nithinshetty388@gmail.com">
+              <i className="fa fa-google-plus-square"></i>
+            </a>
+          <a href="https://www.instagram.com/_shetty_rocks/">
+              <i className="fa fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/Shetty_Rocks_?t=QM2qOGVv_i-qqtNfuHbivw&s=09">
+              <i className="fa fa-twitter"></i>
+            </a>
         </div>
         <div className="back-form">
           <div className="img-back">
@@ -51,9 +48,9 @@ function Contactme(props) {
           <form>
             <p></p>
             <label for="name">Name</label>
-            <input type="text" value="" />
+            <input type="text"/>
             <label for="email">Email</label>
-            <input type="email" value="" />
+            <input type="email"/>
             <label for="message">Message</label>
             <textarea type="text"></textarea>
             <div className="send-btn">
