@@ -1,6 +1,20 @@
-import React from "react";
+import React,{useRef} from "react";
+import emailjs from 'emailjs-com';
 import './Contactme.css';
 function Contactme(props) {
+  const form = useRef();
+  const sendEmail=(e)=>{
+    console.log("inside sendEmail function");
+    e.preventDefault();
+
+    emailjs.sendForm('service_knauplq', 'template_oabuc8s', form.current, 'pJm_AridQ6nRCImQ5')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      form.current.reset()
+  }
   return (
     <div
       className="main-container fade-in"
@@ -45,18 +59,16 @@ function Contactme(props) {
               alt="image not found"
             />
           </div>
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <p></p>
             <label for="name">Name</label>
-            <input type="text"/>
+            <input type="text" name="name"/>
             <label for="email">Email</label>
-            <input type="email"/>
+            <input type="email" name="email"/>
             <label for="message">Message</label>
-            <textarea type="text"></textarea>
+            <textarea type="text" name="message"></textarea>
             <div className="send-btn">
-              <button type="submit">
-                send<i className="fa fa-paper-plane"></i>
-              </button>
+            <input type="submit" value="Send" />
             </div>
           </form>
         </div>
