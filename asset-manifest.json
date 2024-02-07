@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shetty-info/static/css/main.2997db4b.css",
+    "main.js": "/shetty-info/static/js/main.ca432170.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/shetty-info/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/profilephoto.jpeg": "/shetty-info/static/media/profilephoto.e0edd630a438c67ffe4f.jpeg",
+    "static/media/Poppins-Thin.ttf": "/shetty-info/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/shetty-info/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/shetty-info/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/shetty-info/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/shetty-info/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/shetty-info/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/shetty-info/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/bg.jpg": "/shetty-info/static/media/bg.d580cd375921d13ae60d.jpg",
+    "index.html": "/shetty-info/index.html",
+    "main.2997db4b.css.map": "/shetty-info/static/css/main.2997db4b.css.map",
+    "main.ca432170.js.map": "/shetty-info/static/js/main.ca432170.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/shetty-info/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2997db4b.css",
+    "static/js/main.ca432170.js"
+  ]
+}
