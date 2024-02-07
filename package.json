@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "homepage": "https://nithin-shetty22.github.io/shetty-info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,6 +42,8 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.1",
+    "or": "^0.2.0",
     "url-loader": "^4.1.1"
   }
 }
